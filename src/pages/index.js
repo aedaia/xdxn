@@ -10,7 +10,9 @@ const Index = ({ data }) => (
   <Layout>
     <Box>
       <Title as="h2" size="large">
-        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dolor
+        massa, vulputate at vehicula non, dignissim vitae quam. Integer nec
+        lorem ut tortor mattis mattis. Nunc.
       </Title>
     </Box>
     <Gallery items={data.homeJson.gallery} />
@@ -36,6 +38,7 @@ export const query = graphql`
       }
       gallery {
         title
+        link
         copy
         image {
           childImageSharp {

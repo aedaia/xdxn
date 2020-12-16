@@ -5,14 +5,22 @@ import { Container } from './gallery.css';
 import { Link } from "gatsby";
 
 const Gallery = ({ items }) => (
-  <Link to='dognbone'>
   <Container>
-    {items.map((item, i) => (
-      <Item {...item} key={i} />
-    ))}
+    { items.map((item, i) => {
+    const{link, ...props} = item
+    console.log(item)
+    return(
+    <Link to ={link} key = {i}> 
+    <Item{ ...props}/></Link>
+
+    ) } )
+    }
+    
+    
   </Container>
-  </Link>
 );
+
+
 
 Gallery.propTypes = {
   items: PropTypes.arrayOf(PropTypes.object).isRequired,

@@ -96,6 +96,12 @@ export default createGlobalStyle`
     column-count: 2;
   }
 
+  img{
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+  }
+
   @media only screen and (max-width:800px){
     p{
       column-count: 1;
