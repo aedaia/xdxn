@@ -6,6 +6,7 @@ import Header from 'components/header';
 import GlobalStyle from 'global.css.js';
 import { Container } from '../gallery/gallery.css';
 
+
 const Layout = ({ data, children }) => (
   <div>
     <GlobalStyle />
