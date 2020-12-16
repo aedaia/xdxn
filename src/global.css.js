@@ -94,6 +94,7 @@ export default createGlobalStyle`
     margin-bottom: 2rem;
     line-height: 1.5;
     column-count: 2;
+    column-gap: 20px;
   }
 
   img{
