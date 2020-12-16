@@ -5,7 +5,11 @@ import Head from 'components/head';
 import Header from 'components/header';
 import GlobalStyle from 'global.css.js';
 import { Container } from '../gallery/gallery.css';
+import Helmet from 'react-helmet';
 
+<Helmet>
+<link rel="icon" href={'favicon.io'} />
+</Helmet>
 
 const Layout = ({ data, children }) => (
   <div>
