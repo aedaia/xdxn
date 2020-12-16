@@ -5,7 +5,7 @@ import { Container } from './gallery.css';
 import { Link } from "gatsby";
 
 const Gallery = ({ items }) => (
-  <Link to="">
+  <Link to='dognbone'>
   <Container>
     {items.map((item, i) => (
       <Item {...item} key={i} />

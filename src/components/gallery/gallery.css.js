@@ -6,8 +6,9 @@ export const Container = styled.div`
   grid-template-columns: repeat(2, 2fr);
   grid-gap: 3rem;
   padding: 0 0rem;
-  margin: 3rem 0 0 0;
+  margin: 2rem 0 0 0;
 
+  
   ${MEDIA.TABLET`
     display: block;
   `};

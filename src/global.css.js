@@ -22,7 +22,9 @@ export default createGlobalStyle`
     font: inherit;
     vertical-align: baseline;
   }
-
+  h2 {
+    padding-bottom: 100px;
+  }
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure,
   footer, header, hgroup, menu, nav, section {
@@ -90,5 +92,13 @@ export default createGlobalStyle`
 
   p {
     margin-bottom: 2rem;
+    line-height: 1.5;
+    column-count: 2;
+  }
+
+  @media only screen and (max-width:800px){
+    p{
+      column-count: 1;
+    }
   }
 `;
