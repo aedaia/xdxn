@@ -8,7 +8,7 @@ module.exports = {
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
-  logo: path.resolve(__dirname, '../favicon.io'),
+  logo: path.resolve(__dirname, 'favicon.io'),
   social: {
     twitter: ``,
     fbAppId: ``,
