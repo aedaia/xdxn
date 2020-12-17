@@ -9,10 +9,13 @@ import Helmet from 'react-helmet';
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <Helmet>
 <link rel="icon" href={'favicon.io'} />
 </Helmet>
 
+=======
+>>>>>>> parent of 19c045a... Stable build
 =======
 >>>>>>> parent of 19c045a... Stable build
 =======
