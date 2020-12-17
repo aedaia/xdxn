@@ -100,14 +100,12 @@ export default createGlobalStyle`
   img{
     height: auto;
     width: 100%;
-    padding-top: 3vh;
+    padding-top: 20px;
   }
 
   @media only screen and (max-width:800px){
     p{
       column-count: 1;
-      
     }
-
   }
 `;
